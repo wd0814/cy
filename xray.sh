@@ -1,6 +1,6 @@
 #!/bin/bash
 # xray一键安装脚本
-# Author: hijk
+# Author: hijk<https://hijk.art>
 
 
 RED="\033[31m"      # Error message
@@ -60,7 +60,7 @@ checkSystem() {
     if [[ $result != "uid=0(root)" ]]; then
         colorEcho $RED " 请以root身份执行该脚本"
         exit 1
-    fi
+    fiƒ
 
     res=`which yum 2>/dev/null`
     if [[ "$?" != "0" ]]; then
